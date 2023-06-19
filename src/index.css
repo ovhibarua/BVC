@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-[50px] font-bold text-[#2A283B] leading-[60px];
+  }
+  h2 {
+    @apply text-[25px] font-semibold text-[#2A283B];
+  }
+  h3 {
+    @apply text-[20px] leading-[33.1px] font-normal text-[#2A283B];
+  }
+  h4 {
+    @apply text-[18px] font-normal text-white;
+  }
+  p{
+    @apply text-[#747474] leading-[26px];
+  }
+  label{
+    @apply text-[#2A283B] text-base;
+  }
+  input{
+    @apply text-[#2A283B] text-base;
+  }
+}
+
+*{
+  font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+body{
+  background: #F5F5F7 !important;
+}
+
+.heroBnnr{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+.heroBnnr2{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heroBnnr::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.5);
+  z-index: -1;
+}
+
+.navHover:hover .upShow{
+  opacity: 1;
+  visibility: visible;
+  transition: 0.4s all;
+  transform: translateY(0px);
+}
+
+.upShow {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-40px);
+}
+
+
+
+
+

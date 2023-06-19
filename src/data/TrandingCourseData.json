@@ -1,0 +1,32 @@
+[
+    {
+        "img" : "Rectangle 11.png",
+        "courseName" : "Flutter",
+        "title" : "Complete Flutter Bootcamp",
+        "price" : "$250.00",
+        "time" : "7 days session",
+        "content" : "We have designed some of the top IT courses that will take you hand by hand to make your prepare for your career. We guarantee your learning.",
+        "date" : "Feb 18, 2022",
+        "avatar" : "avatar.png"
+    },
+    {
+        "img" : "Rectangle 11 (1).png",
+        "courseName" : "Flutter",
+        "title" : "Python Programming",
+        "price" : "$350.00",
+        "time" : "30 days session",
+        "content" : "We have designed some of the top IT courses that will take you hand by hand to make your prepare for your career. We guarantee your learning.",
+        "date" : "Feb 18, 2022",
+        "avatar" : "avatar.png"
+    },
+    {
+        "img" : "Rectangle 11 (2).png",
+        "courseName" : "Flutter",
+        "title" : "Data Science Bootcamp",
+        "price" : "$550.00",
+        "time" : "60 days session",
+        "content" : "We have designed some of the top IT courses that will take you hand by hand to make your prepare for your career. We guarantee your learning.",
+        "date" : "Feb 18, 2022",
+        "avatar" : "avatar.png"
+    }
+]
