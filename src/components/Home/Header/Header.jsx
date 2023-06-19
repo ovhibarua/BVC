@@ -17,7 +17,7 @@ function Header() {
             </div>
         </section>
         <Nav />
-        {/* <NavList /> */}
+        <NavList />
     </header>
   )
 }
