@@ -3,7 +3,7 @@ import React from 'react'
 function NavList() {
   return (
     <nav className='bg-white'>
-        <div className='container mx-auto py-4'>
+        <div className='container mx-auto py-2 xl:py-4'>
             <ul className='flex justify-between items-center'>
                 <li><h3>Data Science</h3></li>
                 <li><h3>Network & Security</h3></li>

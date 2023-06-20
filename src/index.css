@@ -9,16 +9,16 @@
     @apply text-[50px] font-bold text-[#2A283B] leading-[60px];
   }
   h2 {
-    @apply text-[25px] font-semibold text-[#2A283B];
+    @apply text-sm xl:text-[25px] font-semibold text-[#2A283B];
   }
   h3 {
-    @apply text-[20px] leading-[33.1px] font-normal text-[#2A283B];
+    @apply text-sm xl:text-[20px] leading-[33.1px] font-normal text-[#2A283B];
   }
   h4 {
-    @apply text-[18px] font-normal text-white;
+    @apply text-sm xl:text-[18px] font-normal text-white;
   }
   p{
-    @apply text-[#747474] leading-[26px];
+    @apply text-sm xl:text-base text-[#747474] xl:leading-[26px];
   }
   label{
     @apply text-[#2A283B] text-base;

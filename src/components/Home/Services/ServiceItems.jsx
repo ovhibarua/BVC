@@ -7,7 +7,7 @@ function ServiceItems(props) {
         <div className='mb-5 w-16 h-16'>
             <img src={serviceImg} alt="serviceImg" />
         </div>
-        <h2 className='mb-2'>{serviceTitle}</h2>
+        <h2 className='mb-3'>{serviceTitle}</h2>
         <p className='text-[#2A283B]'>{serviceContent}</p>
     </div>
   )

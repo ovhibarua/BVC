@@ -5,6 +5,7 @@ import Partners from './Partners/Partners'
 import Service from './Services/Service'
 import Community from './Community/Community'
 import Course from './Course/Course'
+import SearchCourse from './SearchCourse'
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
         <CounterUp />
         <Partners />
         <Service />
+        <SearchCourse />
         <Course trandingCourseTitle="Trending Courses" />
         <Course trandingCourseTitle="IT Courses" />
         <Course trandingCourseTitle="Networking Courses" />
